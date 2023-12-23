@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-12-23T08:31:23.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="I3ARwvbb0w4yY8rt98IS" version="22.1.11" type="device">
+  <diagram name="第 1 页" id="MV2LG6wQc4w_V7qykZc8">
+    <mxGraphModel dx="395" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-1" value="管理員Admin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="160" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-2" value="-id:String&lt;br&gt;-password:String&lt;br&gt;-name:String&lt;br&gt;-phone:string&lt;br&gt;-address:string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-1">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-1">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-4" value="&lt;div&gt;+getphone () :String&lt;/div&gt;&lt;div&gt;+getid():String&lt;/div&gt;&lt;div&gt;+getaddress() :String&lt;/div&gt;&lt;div&gt;+getname():String&lt;/div&gt;&lt;div&gt;+getpassword():String&lt;/div&gt;&lt;div&gt;+setpassword():String&lt;/div&gt;&lt;div&gt;+setphone(String):String&lt;/div&gt;&lt;div&gt;+setAddress(String):void&lt;/div&gt;&lt;div&gt;+setid(String):void&lt;/div&gt;&lt;div&gt;+setaddress(String):void&lt;/div&gt;&lt;div&gt;+setpassword(String):void&lt;/div&gt;&lt;div&gt;+setname(String):void&lt;/div&gt;&lt;div&gt;+Login_Admin()&lt;/div&gt;&lt;div&gt;+Modify_info()&lt;/div&gt;&lt;div&gt;+Look-Info()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-1">
+          <mxGeometry y="118" width="160" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-6" value="訂單管理Order_management" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="80" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-7" value="&lt;div&gt;-order _id:String&lt;/div&gt;&lt;div&gt;-data:date&lt;/div&gt;&lt;div&gt;-user_id:String&lt;/div&gt;&lt;div&gt;-good_id:List&lt;/div&gt;&lt;div&gt;-good_count:List&lt;/div&gt;&lt;div&gt;-good_price:List&lt;/div&gt;&lt;div&gt;-total_price:double&lt;/div&gt;&lt;div&gt;-send:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-6">
+          <mxGeometry y="26" width="170" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-6">
+          <mxGeometry y="150" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-9" value="&lt;div&gt;+show()&lt;/div&gt;&lt;div&gt;+Modiy&lt;/div&gt;&lt;div&gt;+search()&lt;/div&gt;&lt;div&gt;+do_view()&lt;/div&gt;&lt;div&gt;+Cancel()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-6">
+          <mxGeometry y="158" width="170" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-10" value="顧客User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-11" value="&lt;div&gt;-id:String&lt;/div&gt;&lt;div&gt;-password:Sting&lt;/div&gt;&lt;div&gt;-name:String&lt;/div&gt;&lt;div&gt;-phone:String&lt;/div&gt;&lt;div&gt;-address:String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-10">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-10">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-13" value="&lt;div&gt;+Modify_info()&lt;/div&gt;&lt;div&gt;+Look-Info()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-10">
+          <mxGeometry y="118" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-14" value="商品管理Good_management" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="440" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-15" value="&lt;div&gt;-good_id:String&lt;/div&gt;&lt;div&gt;-good_name:String&lt;/div&gt;&lt;div&gt;-good_price:double&lt;/div&gt;&lt;div&gt;-good_class:String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-14">
+          <mxGeometry y="26" width="180" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-14">
+          <mxGeometry y="100" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-17" value="&lt;div&gt;+add_Good()&lt;/div&gt;&lt;div&gt;+modify_Good()&lt;/div&gt;&lt;div&gt;delete_Good()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CtdJnLHNtg_iThuxyWuQ-14">
+          <mxGeometry y="108" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-27" value="1M" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.026;entryY=0.705;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CtdJnLHNtg_iThuxyWuQ-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="250" as="sourcePoint" />
+            <mxPoint x="480" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-28" value="1M" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.444;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CtdJnLHNtg_iThuxyWuQ-4" target="CtdJnLHNtg_iThuxyWuQ-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="260" as="sourcePoint" />
+            <mxPoint x="516" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-29" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=4;spacingRight=4;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="360" y="390" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="CtdJnLHNtg_iThuxyWuQ-36" value="1M" style="endArrow=none;endSize=16;endFill=0;html=1;rounded=0;entryX=0.688;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.699;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CtdJnLHNtg_iThuxyWuQ-4" target="CtdJnLHNtg_iThuxyWuQ-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

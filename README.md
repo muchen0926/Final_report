@@ -125,19 +125,19 @@
 
 >表3-1 顧客登入使用案例說明表
 
-//表3-1
+>![image](https://github.com/muchen0926/Final_report/blob/main/image/3-1.png)
 
 >2.商品管理功能用例是對前台顯示的商品資訊進行維護等操作。 詳細描述如下表 3-2所示：
 
 >表3-2 商品管理功能用例描述
 
-//表3-2
+>![image](https://github.com/muchen0926/Final_report/blob/main/image/3-2.png)
 
 >3.購物車用例對需要買的商品進行添加購物車操作，瀏覽商品訊息，對商品進行購買。 詳細描述如下表 3-3所示：
 
 >表3-3 購物車用例描述
 
-//表3-3
+>![image](https://github.com/muchen0926/Final_report/blob/main/image/3-3.png)
 
 ## 3.2 需求分析
 
@@ -331,14 +331,14 @@
 
 >1. 建立等價類表
 
-//表6-1
+>![image](https://github.com/muchen0926/Final_report/blob/main/image/6-2.png)
    
 >表 6-1 等價類例表
 
 
 >2. 設計測試案例
 
-//表6-2
+>![image](https://github.com/muchen0926/Final_report/blob/main/image/6-2.png)
 
 >表 6-2 測試案例表
 
